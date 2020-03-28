@@ -1,2 +1,2 @@
 # CoronaSites
-Google Chrome extension which enables Quick Launch of Web Sites related to Covid-19 information (Corona Virus)
+Google Chrome extension which enables to Quicklu Launch of Web Sites related to Covid-19 information (Corona Virus) on your Google Chrome Browser. This extension works only on the Desktop Browser.
