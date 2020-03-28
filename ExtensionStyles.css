@@ -10,8 +10,8 @@ html, body {
 
 h1 {
     font-family: 'Menlo', monospace;
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 800;
     margin: 0;
     color: #2f5876;
 }
@@ -54,6 +54,8 @@ a:link, a:visited {
 .logo-icon {
     vertical-align: text-bottom;
     margin-right: 12px;
+    height: 40px;
+    width: 40px;
 }
 
 .version {
