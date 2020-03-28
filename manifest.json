@@ -6,6 +6,7 @@
     "icons":{"128": "logo-icon-128.png"},
     "browser_action":{
         "default_icon": "logo-icon-128.png",
+        "efault_title": "Corono virus information webSites",
         "default_popup": "popup.html"
     },
     "permissions": ["activeTab"]
