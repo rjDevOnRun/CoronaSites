@@ -2,12 +2,23 @@
     "manifest_version": 2,
     "name": "Corona Information Sites",
     "description": "Quick Lauch Sites related to Covid-19 informations [Desktop Only]",
-    "version":"0.0.3",
+    "version":"0.0.4",
     "icons":{"128": "logo-icon-128.png"},
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["content.js"]
+        }
+    ],
+    "background":{
+        "scripts": ["background.js"]
+    },
     "browser_action":{
         "default_icon": "logo-icon-128.png",
-        "efault_title": "Corono virus information webSites",
+        "default_title": "Corono virus information webSites",
         "default_popup": "popup.html"
     },
-    "permissions": ["activeTab"]
+    "permissions": ["activeTab", "tabs"]
 }
